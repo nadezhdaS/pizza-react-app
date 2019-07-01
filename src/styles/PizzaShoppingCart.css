@@ -1,0 +1,49 @@
+.eaterVegan {
+    color: #71F3A0 !important;
+}
+
+.eaterNotVegan {
+    color: white;
+}
+
+table {
+    margin: 30px auto;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 600px;
+}
+
+th, td:first-child {
+    background: rgb(42, 94, 117);
+    padding: 10px 20px;
+    color: white;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+td {
+    background: #D8E6F3;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+.pay {
+    width: 50px;
+    height: 25px;
+    background: rgb(42, 94, 117);
+    border: none;
+    color: white;
+}
+
+.paid {
+    background-color: rgba(126, 126, 126, 0.445);
+    width: 50px;
+    height: 25px;
+}

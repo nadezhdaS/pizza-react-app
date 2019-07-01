@@ -1,0 +1,18 @@
+#pizza {
+    display: block;
+    margin: auto auto;
+    width: 200px;
+    height: 200px;
+    background: url('../pizza.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.cuts {
+    position: absolute;
+    display: inline-block;
+    top: 270px;
+    width: 200px;
+    height: 2px;
+    background: rgb(49, 49, 49);
+}

@@ -1,0 +1,25 @@
+#waiting {
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 4em;
+    color: rgb(70, 70, 70);
+}
+
+.points {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(70, 70, 70);
+    animation: growth 900ms infinite linear;
+    margin-left: 10px;
+}
+
+.secont_point {
+    animation-delay: 300ms;
+}
+
+.third_point {
+    animation-delay: 600ms;
+}
